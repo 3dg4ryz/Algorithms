@@ -12,6 +12,8 @@ const selectionSort = (originalArray: number[]) => {
         min = arr[minIndx]
       }
     }
+    if (i === minIndx) continue
+
     [arr[i], arr[minIndx]] = [arr[minIndx], arr[i]]
   }
   return arr

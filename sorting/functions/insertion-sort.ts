@@ -2,7 +2,6 @@ const insertionSort = (originalArray: number[]) => {
   if (originalArray.length < 2) return originalArray
 
   const arr = [...originalArray]
-  // const arr = Array.from(originalArray)
 
   for (let i = 1; i < arr.length; i++) {
     let j = i;
